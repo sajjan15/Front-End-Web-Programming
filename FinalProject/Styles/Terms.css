@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0056b3;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header nav {
+    float: left;
+    font-size: 20px;
+    color: #000000;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #0056b3;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p, ul {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #1c1a1a;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .contact, .footer-links, .follow {
+    flex: 1;
+  }
+  
+  .contact {
+    order: 1;
+    text-align: left;
+  }
+  
+  .footer-links {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 3;
+  }
+  
+  .follow {
+    order: 3;
+    text-align: left;
+  }
+  
+  .footer-section {
+    text-align: left;
+    flex: 1;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  
+  a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2536d1;
+  }
+  
+  .follow a {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  footer .fas, footer .fab {
+    margin-right: 10px;
+  }
+  
+  footer > p {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+  }

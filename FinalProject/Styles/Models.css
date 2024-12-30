@@ -1,0 +1,306 @@
+body {
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #1a64db22;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  box-shadow: 8px 8px 8px #000;
+}
+
+header h1 {
+  float: left;
+  margin-left: 120px;
+  color: rgb(234, 9, 88);
+  font-size: 30px;
+}
+
+header nav {
+  float: right;
+}
+
+header a {
+  font-size: 20px;
+  color: #010101;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 25px;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 5px 5px 10px 10px;
+  overflow: hidden;
+}
+
+header a:hover {
+  color: #000;
+  background-color: #ffee00;
+  box-shadow: 0 0 15px rgba(237, 6, 6, 0.7);
+}
+
+nav a.active {
+  color: #1e06f3;
+  font-weight: bold;
+}
+
+.quote {
+  text-align: start;
+  width: 90%;
+  margin: 8% auto;
+  position: relative;
+}
+
+.quote h1 {
+  color: #c09032;
+  font-size: 80px;
+  text-shadow: 4px 4px 4px #000;
+  line-height: 90px;
+  margin-bottom: 30px;
+}
+
+
+main {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+
+.intro, .model-highlight {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.intro {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #34495e;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.model-highlight h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 60px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.card-content {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card h2 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.card-content .price {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card, .card:nth-child(even) {
+      flex-direction: column;
+  }
+
+  .card img, .card-content {
+      width: 100%;
+  }
+}
+
+.compare-cars {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.compare-cars h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.compare-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+select {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 500px;
+}
+
+#compare-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.comparison-table th, .comparison-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.comparison-table th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  margin-top: 10%;
+  background-color: #1c1a1a;
+  color: #ecf0f1;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.contact, .footer-links, .follow {
+  flex: 1;
+}
+
+.contact {
+  order: 1;
+  text-align: left;
+}
+
+.footer-links {
+  order: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex: 3;
+}
+
+.follow {
+  order: 3;
+  text-align: left;
+}
+
+.footer-section {
+  text-align: left;
+  flex: 1;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2536d1;
+}
+
+.follow a {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer .fas, footer .fab {
+  margin-right: 10px;
+}
+
+footer > p {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #555;
+  padding-top: 20px;
+}
