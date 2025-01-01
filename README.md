@@ -25,10 +25,9 @@ This repository contains a front-end web application developed to demonstrate pr
 ## Technologies Used
 
 - **Programming Languages**: HTML5, CSS3, JavaScript.
-- **Frameworks and Libraries**: React.js, Bootstrap.
+- **Frameworks and Libraries**: Bootstrap.
 - **Version Control**: Git and GitHub.
-- **Tools**: Visual Studio Code, Chrome Developer Tools.
-- **Other**: REST APIs, JSON.
+- **Tools**: Visual Studio Code.
 
 ## Database Contents
 
